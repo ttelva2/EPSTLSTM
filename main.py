@@ -61,7 +61,7 @@ def ProcDataForSingleFile(data,nr):
     data_set = []
     d = data
     dfft = NoiseRemovel(d, nr)
-	### extreme point sort transformation ###
+    ### extreme point sort transformation ###
     # Obtain the extreme point positions and values
     dfft_ext = signal.argrelextrema(dfft, np.greater)[0]
     dfft_ext_value = np.real(dfft[signal.argrelextrema(dfft, np.greater)])
