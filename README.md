@@ -8,4 +8,5 @@ How to use?
 2.	Prepare your Raman spectrum CSV files exported from a ThermoFisher DXR Raman spectrometer. Build your own database for model training. Revise the code for model training, then train your own models for identification. Notice that, the original Raman spectrum data of therapeutic mAbs and models are NOT provided in this project. Because we have no rights to publish the original spectra of the commercial therapeutic mAbs. This project is to introduce how extreme point sort transformation combined with a long short-term memory network algorithm works and for research purpose ONLY. 
 3.	Optimize the parameters to obtain a best result of identification.
 4.	Use the code to predict your samples.
+
 THANKS!
